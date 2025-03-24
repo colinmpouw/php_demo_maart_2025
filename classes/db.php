@@ -11,8 +11,8 @@ class db
     private $pdo;
     private $host = "localhost";
     private $dbname = "gastenboek";
-    private $dbuser = "gastenboek";
-    private $dbpass = "gastenboek";
+    private $dbuser = "root";
+    private $dbpass = "";
 
     // property to store all users
     public $users = [];
